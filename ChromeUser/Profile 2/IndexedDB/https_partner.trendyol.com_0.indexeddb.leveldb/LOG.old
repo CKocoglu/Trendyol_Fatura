@@ -1,0 +1,5 @@
+2021/03/22-16:42:43.018 1ee0 Reusing MANIFEST C:\Users\ckocoglu\AppData\Local\Google\Chrome\User Data\Profile 2\IndexedDB\https_partner.trendyol.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/22-16:42:48.534 1ee0 Level-0 table #5: started
+2021/03/22-16:42:48.536 1ee0 Level-0 table #5: 2192 bytes OK
+2021/03/22-16:42:48.538 1ee0 Delete type=0 #3
+2021/03/22-16:42:48.539 1ee0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
