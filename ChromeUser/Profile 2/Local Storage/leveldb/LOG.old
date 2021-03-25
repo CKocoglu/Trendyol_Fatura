@@ -1,3 +1,6 @@
-2021/03/24-21:27:48.547 4784 Reusing MANIFEST C:\Users\ckocoglu\PycharmProjects\FaturaTrendyol\ChromeUser\Profile 2\Local Storage\leveldb/MANIFEST-000001
-2021/03/24-21:27:48.548 4784 Recovering log #50
-2021/03/24-21:27:48.548 4784 Reusing old log C:\Users\ckocoglu\PycharmProjects\FaturaTrendyol\ChromeUser\Profile 2\Local Storage\leveldb/000050.log 
+2021/03/25-14:36:11.149 2674 Reusing MANIFEST C:\Users\ckocoglu\PycharmProjects\FaturaTrendyol\ChromeUser\Profile 2\Local Storage\leveldb/MANIFEST-000001
+2021/03/25-14:36:11.150 2674 Recovering log #52
+2021/03/25-14:36:11.150 2674 Reusing old log C:\Users\ckocoglu\PycharmProjects\FaturaTrendyol\ChromeUser\Profile 2\Local Storage\leveldb/000052.log 
+2021/03/25-14:36:21.186 2674 Level-0 table #55: started
+2021/03/25-14:36:21.188 2674 Level-0 table #55: 11594 bytes OK
+2021/03/25-14:36:21.190 2674 Delete type=0 #52

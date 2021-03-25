@@ -111,17 +111,27 @@ for i in range(2,siparis_sayisi+2):
     urun_adi    =driver.find_element_by_xpath(f'//*[@id="mp-data-table"]/tbody[{i}]/tr/td[6]/div/div[2]/a').text
     print("urun adi  ",urun_adi)
 
-    satis_tutari=driver.find_element_by_xpath(f'//*[@id="mp-data-table"]/tbody[{i}]/tr/td[9]/ul/li/b').text
-    satis_tutari = convert_stringToFloat(satis_tutari)
-    print("satis tutari ",satis_tutari)
+    try:
+        satis_tutari = driver.find_element_by_xpath(f'//*[@id="mp-data-table"]/tbody[{i}]/tr[1]/td[9]/ul/li[3]/b').text
+        satis_tutari = convert_stringToFloat(satis_tutari)
+    except:
+        satis_tutari = driver.find_element_by_xpath(f'//*[@id="mp-data-table"]/tbody[{i}]/tr/td[9]/ul/li/b').text
+        satis_tutari = convert_stringToFloat(satis_tutari)
+        pass
+
+    print("satis tutari ", satis_tutari)
     kargo_kodu  =driver.find_element_by_xpath(f'//*[@id="mp-data-table"]/tbody[{i}]/tr/td[8]/div[2]/span[2]').text
     print("kargo kodu = ",kargo_kodu)
 
     #fatura islemleri kısmı
+    try:
+        driver.find_element_by_xpath(f'//*[@id="mp-data-table"]/tbody[{i}]/tr/td[9]/span').click()
+    except:
+        driver.find_element_by_xpath(f'//*[@id="mp-data-table"]/tbody[{i}]/tr/td[9]/div/div[1]/div[1]').click()
+        time.sleep(1)
+        driver.find_element_by_xpath(f'//*[@id="mp-data-table"]/tbody[{i}]/tr/td[9]/div/div[1]/div[2]/div/button[2]').click()
+        pass
 
-    driver.find_element_by_xpath(f'//*[@id="mp-data-table"]/tbody[{i}]/tr/td[9]/div/div[1]/div[1]').click()
-    time.sleep(1)
-    driver.find_element_by_xpath(f'//*[@id="mp-data-table"]/tbody[{i}]/tr/td[9]/div/div[1]/div[2]/div/button[2]').click()
     # time.sleep(2)
     print("fatura işlemleri kısmına girdim.")
     title = driver.find_element_by_xpath('//*[@id="shipment-packages"]/div/div/div[4]/div/div/div/form/div[1]/h5').text

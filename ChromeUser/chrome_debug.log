@@ -1,7 +1,11 @@
-[16428:4948:0324/213224.204:ERROR:token_service_table.cc(140)] Failed to decrypt token for service AccountId-100139509569924092620
-[16428:14644:0324/213224.211:INFO:login_database.cc(1460)] Password decryption failed, encryption_result is 1
-[16428:19032:0324/213226.862:INFO:CONSOLE(364)] "reCAPTCHA couldn't find user-provided function: vueRecaptchaApiLoaded", source: https://www.gstatic.com/recaptcha/releases/5mNs27FP3uLBP3KBPib88r1g/recaptcha__tr.js (364)
-[16428:14644:0324/213227.554:INFO:login_database.cc(1460)] Password decryption failed, encryption_result is 1
-[16428:10076:0324/213231.360:INFO:login_database.cc(1460)] Password decryption failed, encryption_result is 1
-[16428:19032:0324/213232.526:ERROR:device_event_log_impl.cc(214)] [21:32:32.525] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.
-[16428:19032:0324/213311.156:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[13680:19304:0325/143945.328:ERROR:token_service_table.cc(140)] Failed to decrypt token for service AccountId-100139509569924092620
+[13680:11572:0325/143945.332:INFO:login_database.cc(1460)] Password decryption failed, encryption_result is 1
+[13680:11548:0325/143946.650:ERROR:device_event_log_impl.cc(214)] [14:39:46.650] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.
+[13680:11548:0325/143948.386:INFO:CONSOLE(0)] "[DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o", source: https://partner.trendyol.com/account/login?redirect=%2F%2F (0)
+[13680:10632:0325/143948.386:INFO:login_database.cc(1460)] Password decryption failed, encryption_result is 1
+[13680:11548:0325/144106.559:INFO:CONSOLE(256)] "reCAPTCHA couldn't find user-provided function: vueRecaptchaApiLoaded", source: https://www.gstatic.com/recaptcha/releases/6g5J7UfDQ9mLrweZHj04ekSP/recaptcha__tr.js (256)
+[13680:8568:0325/144107.192:INFO:login_database.cc(1460)] Password decryption failed, encryption_result is 1
+[13680:14904:0325/144110.742:INFO:login_database.cc(1460)] Password decryption failed, encryption_result is 1
+[13680:8568:0325/144113.130:INFO:login_database.cc(1460)] Password decryption failed, encryption_result is 1
+[13680:8568:0325/144117.944:INFO:login_database.cc(1460)] Password decryption failed, encryption_result is 1
+[13680:11548:0325/144122.694:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
