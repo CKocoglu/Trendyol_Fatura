@@ -249,7 +249,7 @@ def start(driver):
 
             print("Program başlatılıyor...")
         except:
-            print("Bir şeyler ters gitti.")
+            print("Bir şeyler ters gitti...")
 
     time.sleep(3)
     #siparis sayisi 20 den büyükse gösterim sayısını 50 ye cıkar sayfada.
