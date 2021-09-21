@@ -1,3 +1,0 @@
-[15156:18272:0323/150245.785:INFO:CONSOLE(0)] "[DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o", source: https://partner.trendyol.com/account/login?redirect=%2F%2F (0)
-[15156:18272:0323/150246.282:ERROR:device_event_log_impl.cc(214)] [15:02:46.281] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.
-[15156:18272:0323/150253.687:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

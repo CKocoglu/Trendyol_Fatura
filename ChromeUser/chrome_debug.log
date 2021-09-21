@@ -1,9 +1,0 @@
-[5592:18984:0404/160338.776:ERROR:token_service_table.cc(140)] Failed to decrypt token for service AccountId-100139509569924092620
-[5592:9672:0404/160338.780:INFO:login_database.cc(1460)] Password decryption failed, encryption_result is 1
-[5592:19592:0404/160342.076:INFO:CONSOLE(0)] "[DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o", source: https://partner.trendyol.com/account/login?redirect=%2F%2F (0)
-[5592:11232:0404/160342.076:INFO:login_database.cc(1460)] Password decryption failed, encryption_result is 1
-[5592:19592:0404/160346.144:ERROR:device_event_log_impl.cc(214)] [16:03:46.144] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.
-[5592:19592:0404/160448.604:INFO:CONSOLE(364)] "reCAPTCHA couldn't find user-provided function: vueRecaptchaApiLoaded", source: https://www.gstatic.com/recaptcha/releases/5mNs27FP3uLBP3KBPib88r1g/recaptcha__tr.js (364)
-[5592:21164:0404/160449.283:INFO:login_database.cc(1460)] Password decryption failed, encryption_result is 1
-[5592:21164:0404/160453.009:INFO:login_database.cc(1460)] Password decryption failed, encryption_result is 1
-[5592:19592:0404/160608.623:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

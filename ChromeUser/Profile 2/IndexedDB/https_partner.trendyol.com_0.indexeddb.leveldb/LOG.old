@@ -1,8 +1,0 @@
-2021/03/31-17:48:11.571 2988 Reusing MANIFEST C:\Users\ckocoglu\PycharmProjects\FaturaTrendyol\ChromeUser\Profile 2\IndexedDB\https_partner.trendyol.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/03/31-17:48:11.571 2988 Recovering log #4
-2021/03/31-17:48:11.571 2988 Reusing old log C:\Users\ckocoglu\PycharmProjects\FaturaTrendyol\ChromeUser\Profile 2\IndexedDB\https_partner.trendyol.com_0.indexeddb.leveldb/000004.log 
-2021/03/31-17:50:12.900 3748 Level-0 table #8: started
-2021/03/31-17:50:12.900 3748 Level-0 table #8: 0 bytes OK
-2021/03/31-17:50:12.905 3748 Delete type=0 #4
-2021/03/31-17:50:12.906 3748 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2021/03/31-17:50:12.906 3748 Manual compaction at level-1 from (begin) .. (end); will stop at (end)
